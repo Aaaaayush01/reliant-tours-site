@@ -100,6 +100,28 @@ body {
   color: var(--accent-teal);
   transform: translateY(-2px);
 }
+.group-home-link {
+    /* Basic look */
+    display: inline-block; /* Makes padding/margin work */
+    padding: 5px 12px;
+    border: 1px solid var(--primary-color, #007bff); /* Use your brand color */
+    border-radius: 4px;
+    
+    /* Text style */
+    text-decoration: none; /* Remove underline */
+    color: var(--primary-color, #007bff); /* Text color matches border */
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover Effect */
+.group-home-link:hover {
+    background-color: var(--primary-color, #007bff); /* Background fills with color */
+    color: white; /* Text turns white */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow lift */
+}
+
 .btn {
   padding: 8px 14px;
   border-radius: 12px;
